@@ -1,0 +1,22 @@
+{
+  "name": "second_exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choquemeneses7/SecondExam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choquemeneses7/SecondExam/issues"
+  },
+  "homepage": "https://github.com/choquemeneses7/SecondExam#readme",
+  "dependencies": {
+    "grunt": "^1.0.2"
+  }
+}
