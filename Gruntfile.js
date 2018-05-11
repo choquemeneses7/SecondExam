@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-contrib-jasmine');
-	var config = grunt.file.readJSON(grunt.option('config'));
+	var config = grunt.file.readJSON(grunt.option('config') || 'config.json');
 
   	grunt.registerTask('generateIndex',function(){
 		grunt.file.copy('index.html',config.buildFolder+'/index.html',
